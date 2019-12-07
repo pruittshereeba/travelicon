@@ -1,4 +1,54 @@
-body {
-    font-family: cursive;
-    background: url("traveliconbckgrnd.jpg");
-}
+<!DOCTYPE html>
+<html>
+<title>Travelicon Stylesheet</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://localhost:8080/travelicon">
+<body>
+
+<div class="w3-display-container" style="margin-bottom:50px">
+  <img src="https://raw.githubusercontent.com/pruittshereeba/travelicon/master/familytravelhomepage.jpg" style="width:100%">
+  <div class="w3-display-bottomleft w3-container w3-amber w3-hover-purple w3-hide-small"
+   style="bottom:10%;opacity:0.7;width:70%">
+  <h2><b>Welcome to Travelicon! Choose a destination:</b></h2>
+</div>
+</div>
+
+<div class="w3-row w3-container" style="margin:50px 0">
+<div class="w3-half w3-container">
+  <div class="w3-topbar w3-border-purple">
+    <img src="https://raw.githubusercontent.com/pruittshereeba/travelicon/master/jvillefl.jpg" style="width:100%">
+    <h2>Jacksonville, Florida</h2>
+    <p>Click image for more info on this destination! </p>
+  </div>
+</div>
+
+<div class="w3-half w3-container" style="margin:50px 0">
+  <div class="w3-topbar w3-border-purple">
+    <img src="https://github.com/pruittshereeba/travelicon/blob/master/biloxims.jpg?raw=true" style="width:100%">
+    <h2>Biloxi, MS</h2>
+    <p>Click image for more info on this destination!</p>
+  </div>
+</div>
+</div>
+
+<div class="w3-row w3-container" style="margin:50px 0">
+<div class="w3-half w3-container">
+  <div class="w3-topbar w3-border-purple">
+    <img src="/w3images/truck.jpg" style="width:100%">
+    <h2>Car Rental Included</h2>
+    <p>Wherever you travel our car rental is included.</p>
+  </div>
+</div>
+
+<div class="w3-half w3-container">
+  <div class="w3-topbar w3-border-purple">
+    <img src="/w3images/nowornever.jpg" style="width:100%">
+    <h2>Realize Your Dreams</h2>
+    <p>Don't wait until it is to late.</p>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
